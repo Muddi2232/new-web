@@ -1,0 +1,108 @@
+body{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+.para{
+    font-size: 40px;
+    color: orangered;
+}
+.categories{
+    font-size: 20px;
+}
+.xyz{
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: 12px;
+    width: 10px;
+    height: 10px;
+}
+.signin{
+    font-size: 25px;
+    margin: 10px;
+}
+
+i{
+    font-size: 20px;
+}
+
+nav{
+    
+        height:30px;
+        margin-top: 10px;
+        display: flex;
+        color: white;
+        background-color: palevioletred;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        justify-content: space-between;
+        font-weight: bold;
+}
+
+nav>span{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    margin: 5px;
+}
+
+nav>span:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+h1{
+    margin: 50px;
+    font-style: italic;
+}
+
+.photos{
+    z-index: -100;
+}
+
+.box{
+    flex-wrap: wrap;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+img{
+    width: 150px;
+    margin-top: 3px;
+    height: 150px;
+    border: 3px solid white;
+}
+.photos>img{
+    border-radius: 120px;
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.paragraph{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.kuchbhi{
+    flex-wrap: wrap;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-flex;
+}
+.kuchbhi>img{
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 180px;
+}
